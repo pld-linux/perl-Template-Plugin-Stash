@@ -1,11 +1,12 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Template
 %define	pnam	Plugin-Stash
 Summary:	Template::Plugin::Stash - expose the stash, ideal for Dumpering...
+Summary(pl):	Template::Plugin::Stash - wystawianie schowka, idealne do zrzucania
 Name:		perl-Template-Plugin-Stash
 Version:	1.006
 Release:	1
@@ -21,6 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Template::Plugin::Stash - expose the stash, ideal for Dumpering...
+
+%description -l pl
+Template::Plugin::Stash - wystawianie schowka, idealne do zrzucania.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
