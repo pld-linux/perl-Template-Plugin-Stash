@@ -10,8 +10,8 @@ Summary(pl):	Template::Plugin::Stash - wystawianie schowka, idealne do zrzucania
 Name:		perl-Template-Plugin-Stash
 Version:	1.006
 Release:	1
-# Same as Perl
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8c640985f5b36a30a5af4cd5ab455b97
