@@ -7,13 +7,13 @@
 %define	pnam	Plugin-Stash
 Summary:	Template::Plugin::Stash - expose the stash, ideal for Dumpering...
 Name:		perl-Template-Plugin-Stash
-Version:	1.005
+Version:	1.006
 Release:	1
 # Same as Perl
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	da8cd9cf050fbde61a44845d1b5cecee
+# Source0-md5:	8c640985f5b36a30a5af4cd5ab455b97
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
