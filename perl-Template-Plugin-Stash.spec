@@ -1,11 +1,11 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Template
 %define		pnam	Plugin-Stash
-Summary:	Template::Plugin::Stash - expose the stash, ideal for Dumpering...
+%include	/usr/lib/rpm/macros.perl
+Summary:	Template::Plugin::Stash - expose the stash, ideal for Dumpering
 Summary(pl.UTF-8):	Template::Plugin::Stash - wystawianie schowka, idealne do zrzucania
 Name:		perl-Template-Plugin-Stash
 Version:	1.006
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8c640985f5b36a30a5af4cd5ab455b97
+URL:		http://search.cpan.org/dist/Template-Plugin-Stash/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
