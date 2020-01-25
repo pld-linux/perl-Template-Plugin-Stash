@@ -4,7 +4,6 @@
 
 %define		pdir	Template
 %define		pnam	Plugin-Stash
-%include	/usr/lib/rpm/macros.perl
 Summary:	Template::Plugin::Stash - expose the stash, ideal for Dumpering
 Summary(pl.UTF-8):	Template::Plugin::Stash - wystawianie schowka, idealne do zrzucania
 Name:		perl-Template-Plugin-Stash
